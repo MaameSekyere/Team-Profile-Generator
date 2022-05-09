@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
-const Manager = require("./lib/Manager")
-const Engineer = require("./lib/Engineer")
-const Intern = require("./lib/Intern")
+const Manager = require("./lib/Manager");
+const Engineer = require("./lib/Engineer");
+const Intern = require("./lib/Intern");
 const generateHtml = require("./generate-html");
 const fs = require("fs");
 const teamInfo = [];
@@ -125,15 +125,34 @@ const promptQuestions = () => {
 };
 const promptUser = () => {
   return promptQuestions().then((userResponse) => {
-      if (userResponse.role === "Manager") {
-     teamInfo.push(new Manager(userResponse.name, userResponse.email, userResponse.employeeId, userResponse.officeNumber))
-      } else if (userResponse.role === "Engineer") {
-          teamInfo.push(new Engineer(userResponse.name, userResponse.email, userResponse.employeeId, userResponse.github ))
-      } else (userResponse.role === "Intern") {
-         teamInfo.push(new Intern(userResponse.name, userResponse.email, userResponse.employeeId, userResponse.school))
-      }
-  
-   
+    if (userResponse.role === "Manager") {
+      teamInfo.push(
+        new Manager(
+          userResponse.name,
+          userResponse.email,
+          userResponse.employeeId,
+          userResponse.officeNumber
+        )
+      );
+    } else if (userResponse.role === "Engineer") {
+      teamInfo.push(
+        new Engineer(
+          userResponse.name,
+          userResponse.email,
+          userResponse.employeeId,
+          userResponse.github
+        )
+      );
+    } else if (userResponse.role === "Intern") {
+      teamInfo.push(
+        new Intern(
+          userResponse.name,
+          userResponse.email,
+          userResponse.employeeId,
+          userResponse.school
+        )
+      );
+    }
     if (userResponse.addEmployee) {
       return promptUser(teamInfo);
     } else {
