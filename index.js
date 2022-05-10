@@ -5,8 +5,8 @@ const Intern = require("./lib/Intern");
 const generateHtml = require("./generate-html");
 const fs = require("fs");
 const teamInfo = [];
-//create an array of questions for user input
 
+//create an array of questions for user input
 const promptQuestions = () => {
   return inquirer.prompt([
     {

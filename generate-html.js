@@ -5,14 +5,13 @@
 
 const generateHtml = (teamInfo) => {
   var html = "";
-  console.log(teamInfo);
   for (var i = 0; i < teamInfo.length; i++) {
     if (teamInfo[i].officeNumber !== null) {
       html += `<div> 
     <p> ${teamInfo[i].getName()} </p>
     <p> ${teamInfo[i].getId()} </p>
     <p> ${teamInfo[i].getEmail()} </p>
-    <p> ${teamInfo[i].getOfficeNumber()} </p>
+    <p> ${teamInfo[i].getofficeNumber()} </p>
  </div>
  `;
     }
@@ -37,4 +36,5 @@ const generateHtml = (teamInfo) => {
   }
   return html;
 };
+
 module.exports = generateHtml;
