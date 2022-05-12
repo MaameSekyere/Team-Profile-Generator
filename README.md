@@ -2,6 +2,14 @@
 
 ## Table of Contents
 
+[Project Requirements] (https://github.com/MaameSekyere/Team-Profile-Generator#project-requirements
+)
+[User Story] (https://github.com/MaameSekyere/Team-Profile-Generator#user-story)
+[Acceptance Criteria] (https://github.com/MaameSekyere/Team-Profile-Generator#acceptance-criteria)
+[Installation] (https://github.com/MaameSekyere/Team-Profile-Generator#installation)
+[Screenshots] (https://github.com/MaameSekyere/Team-Profile-Generator#screenshots)
+[Contact] (https://github.com/MaameSekyere/Team-Profile-Generator#contact)
+
 ## Project Requirements
 
 ### User Story
@@ -42,6 +50,8 @@ THEN I exit the application, and the HTML is generated
 1. Clone the repository to your local drive.
 2. Run npm install in order to install the npm package dependencies as specified in the package.json file.
 3. Run node index.js in the command line to use the application
+
+## Screenshots
 
 ## Contact
 
