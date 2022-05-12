@@ -58,6 +58,7 @@ THEN I exit the application, and the HTML is generated
 3. Run node index.js in the command line to use the application
 
 ## Screenshots
+<img width="1440" alt="Screen Shot 2022-05-11 at 9 44 54 PM" src="https://user-images.githubusercontent.com/94888460/167975623-42c82bcd-2d1a-4fa4-b105-8f83e06081d2.png">
 
 ## Contact
 
