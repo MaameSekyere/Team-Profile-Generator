@@ -1,4 +1,6 @@
 # Team-Profile-Generator
+Link to walkthrough:
+https://youtu.be/3M5rsbHWAY4
 
 ## Table of Contents
 
