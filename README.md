@@ -2,17 +2,17 @@
 
 ## Table of Contents
 
-[Project-Requirements](https://github.com/MaameSekyere/Team-Profile-Generator#project-requirements)
+1. [Project-Requirements](https://github.com/MaameSekyere/Team-Profile-Generator#project-requirements)
 
-[User Story](https://github.com/MaameSekyere/Team-Profile-Generator#user-story)
+- [User Story](https://github.com/MaameSekyere/Team-Profile-Generator#user-story)
 
-[Acceptance Criteria](https://github.com/MaameSekyere/Team-Profile-Generator#acceptance-criteria)
+- [Acceptance Criteria](https://github.com/MaameSekyere/Team-Profile-Generator#acceptance-criteria)
 
-[Installation](https://github.com/MaameSekyere/Team-Profile-Generator#installation)
+- [Installation](https://github.com/MaameSekyere/Team-Profile-Generator#installation)
 
-[Screenshots](https://github.com/MaameSekyere/Team-Profile-Generator#screenshots)
+- [Screenshots](https://github.com/MaameSekyere/Team-Profile-Generator#screenshots)
 
-[Contact](https://github.com/MaameSekyere/Team-Profile-Generator#contact)
+- [Contact](https://github.com/MaameSekyere/Team-Profile-Generator#contact)
 
 ## Project Requirements
 
