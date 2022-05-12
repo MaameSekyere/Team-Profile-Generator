@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-_[Project-Requirements] (https://github.com/MaameSekyere/Team-Profile-Generator#project-requirements
+[Project-Requirements] (<a name= "https://github.com/MaameSekyere/Team-Profile-Generator#project-requirements"></a>
 )
 _[User-Story] (https://github.com/MaameSekyere/Team-Profile-Generator#user-story)
 _[Acceptance-Criteria] (https://github.com/MaameSekyere/Team-Profile-Generator#acceptance-criteria)
